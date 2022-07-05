@@ -1,4 +1,35 @@
-.Rectangle_1 {
+:root{
+    --background-color: #fdf7f6;
+    --heading-color: #a08241;
+    --bar-color: #b38185;
+    --poppins-fonts: 'Poppins', sans-serif;
+    --playfair-fonts:'Playfair Display', serif;
+}
+
+p, span{
+    font-family: var(--poppins-fonts);
+}
+
+
+body{
+    background-color: var(--background-color) !important;
+}
+
+#logo{
+    width: 99px;
+  height: 92px;
+  mix-blend-mode: multiply;
+}
+
+.navbar .nav-item a{
+    padding: 0 29px !important;
+}
+
+.display-3{
+    font-family: var(--playfair-fonts);
+}
+
+/* .Rectangle_1 {
     width: 100%;
     height: 38px;
     padding: 7px;
@@ -8,17 +39,12 @@
 
   .Rectangle_2 {
     width: 100%;
-    height: 130px;
+    height: 183px;
     padding: 7px;
     background-color: #fdf7f6;
+    padding-bottom: 10pxpx;
   }
-
-  .Rectangle_3 {
-    width: 100%;
-    height: 53px;
-    padding: 13px 201px 14px;
-    background-color: #fdf7f6;
-  }
+  
 
   .FREE-SHIPPING {
     text-align: center;
@@ -27,6 +53,13 @@
     font-weight: 500;
     letter-spacing: 0.5px;
     color: #fff;
+  }
+
+  .Brands-Featured{
+    font-family: PlayfairDisplay;
+    font-size: 36px;
+    letter-spacing: 0.78px;
+    color: #a08241;
   }
   
   
@@ -45,4 +78,14 @@
   .nav-item .nav-link{
     padding: 0 !important;
   }
+
+  .row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+  } */
+  
   
