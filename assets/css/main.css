@@ -6,6 +6,20 @@
     background-color: #e6d1d3;
   }
 
+  .Rectangle_2 {
+    width: 1439px;
+    height: 130px;
+    padding: 7px;
+    background-color: #fdf7f6;
+  }
+
+  .Rectangle_3 {
+    width: 1440px;
+    height: 53px;
+    padding: 13px 201px 14px;
+    background-color: #fdf7f6;
+  }
+
   .FREE-SHIPPING {
     text-align: center;
     font-family: Poppins;
@@ -14,3 +28,16 @@
     letter-spacing: 0.5px;
     color: #fff;
   }
+
+  #main li {
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 300;
+    display: inline-block;
+    position: relative;
+    padding: 10px 20px;
+    cursor: pointer;
+    min-width: 100px;
+  }
+  
+  
