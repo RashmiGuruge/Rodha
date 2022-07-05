@@ -28,26 +28,21 @@
     letter-spacing: 0.5px;
     color: #fff;
   }
-
-  #main li {
+  
+  
+  .nav-item{
+    padding: 0 30px;
     font-family: Poppins;
     font-size: 15px;
     font-weight: 300;
     display: inline-block;
     position: relative;
-    padding: 10px 20px;
     cursor: pointer;
     min-width: 100px;
-  }
-  
-  
-  .nav-item{
-    padding: 0 29px;
+    color: black;
   }
   
   .nav-item .nav-link{
     padding: 0 !important;
-    font-size: 15px;
-    color: #000;
   }
   
