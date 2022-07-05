@@ -1,0 +1,16 @@
+.Rectangle_1 {
+    width: 1440px;
+    height: 38px;
+    padding: 7px;
+    text-align: center;
+    background-color: #e6d1d3;
+  }
+
+  .FREE-SHIPPING {
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    color: #fff;
+  }
