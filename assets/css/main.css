@@ -6,19 +6,18 @@
     --playfair-fonts:'Playfair Display', serif;
 }
 
-p, span{
-    font-family: var(--poppins-fonts);
-}
-
-
 body{
     background-color: var(--background-color) !important;
 }
 
+p, span{
+    font-family: var(--poppins-fonts);
+}
+
 #logo{
     width: 99px;
-  height: 92px;
-  mix-blend-mode: multiply;
+    height: 92px;
+    mix-blend-mode: multiply;
 }
 
 .navbar .nav-item a{
@@ -28,6 +27,27 @@ body{
 .display-3{
     font-family: var(--playfair-fonts);
 }
+
+.heading {
+    font-size: var(--playfair-fonts);
+    letter-spacing: 0.78px;
+    color: var(--heading-color);
+}
+
+.line{   
+    border: 1px;
+    background-color: var(--bar-color);
+    margin-top: 21px;
+    width: 113px;
+    height: 5px; 
+  }
+
+  .logo img {
+    max-width: 140px;
+    max-height: 64px;
+    object-fit: contain;
+    mix-blend-mode: multiply;
+  }
 
 /* .Rectangle_1 {
     width: 100%;
