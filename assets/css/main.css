@@ -4,6 +4,8 @@
     --bar-color: #b38185;
     --poppins-fonts: 'Poppins', sans-serif;
     --playfair-fonts:'Playfair Display', serif;
+    --secondary-text: #797979;
+    --rose: #e4b0b4;
 }
 
 body{
@@ -28,10 +30,20 @@ p, span{
     font-family: var(--playfair-fonts);
 }
 
+.secondary-text-color{
+  color: var(--secondary-text);
+}
 
+.text-color{
+  color: var(--bar-color);
+}
 
 .fs-18-px{
   font-size: 18px;
+}
+
+.fw-500{
+  font-weight: 500;
 }
 
 /* Heading */
@@ -71,6 +83,33 @@ p, span{
   font-weight: 500px;
   color: var(--bar-color) !important;
   text-underline-offset: 3px;
+}
+
+.status-div{
+  width: 91px;
+  height: 42px;
+  background-color: var(--rose);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+}
+
+.quick-views{
+  border: solid 1.5px var(--bar-color);
+}
+
+.add-to-cart{
+  border: solid 1.5px var(--heading-color);
+  background: var(--heading-color);
+}
+
+.image-container:hover .buttons-div{
+  bottom: 0;
+
 }
 
 
