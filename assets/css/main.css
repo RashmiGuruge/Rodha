@@ -12,6 +12,10 @@ body{
     background-color: var(--background-color) !important;
 }
 
+footer{
+  background-color: var(--bar-color);
+}
+
 p, span{
     font-family: var(--poppins-fonts);
     font-weight: 300;
@@ -114,6 +118,26 @@ p, span{
 
 }
 
+.footer-text{
+  font-family: var(--poppins-fonts);
+  font-size: 17px;
+  font-weight: 500;
+  color: white;
+}
+
+.footer-menu {
+  color: white;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+hr.style1{
+	border-top: 1px solid #000000;
+}
+
+
+
+
 
 
 @media (min-width: 1400px) and (max-width: 1900px){
@@ -122,93 +146,5 @@ p, span{
   } 
 }
 
-/* .heading {
-    font-size: var(--playfair-fonts);
-    letter-spacing: 0.78px;
-    color: var(--heading-color);
-}
-
-.line{   
-    border: 1px;
-    background-color: var(--bar-color);
-    margin-top: 21px;
-    width: 113px;
-    height: 5px; 
-  }
-
-.logo img {
-    max-width: 140px;
-    max-height: 64px;
-    object-fit: contain;
-    mix-blend-mode: multiply;
-}
-
-
-
-.rectangle-img{
-    width: 375px;
-    height: 213px;
-    margin: 40px 16px 22px 18px;
-} */
-  
-
-/* .Rectangle_1 {
-    width: 100%;
-    height: 38px;
-    padding: 7px;
-    text-align: center;
-    background-color: #e6d1d3;
-  }
-
-  .Rectangle_2 {
-    width: 100%;
-    height: 183px;
-    padding: 7px;
-    background-color: #fdf7f6;
-    padding-bottom: 10pxpx;
-  }
-  
-
-  .FREE-SHIPPING {
-    text-align: center;
-    font-family: Poppins;
-    font-size: 14px;
-    font-weight: 500;
-    letter-spacing: 0.5px;
-    color: #fff;
-  }
-
-  .Brands-Featured{
-    font-family: PlayfairDisplay;
-    font-size: 36px;
-    letter-spacing: 0.78px;
-    color: #a08241;
-  }
-  
-  
-  .nav-item{
-    padding: 0 30px;
-    font-family: Poppins;
-    font-size: 15px;
-    font-weight: 300;
-    display: inline-block;
-    position: relative;
-    cursor: pointer;
-    min-width: 100px;
-    color: black;
-  }
-  
-  .nav-item .nav-link{
-    padding: 0 !important;
-  }
-
-  .row {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
-  } */
   
   
