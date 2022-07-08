@@ -557,7 +557,7 @@
                         <p>93, Thimbirigasyaya <br> Road, Colombo 05, <br> Sri Lanka </p>
                         <p class="mb-0"><a class="footer-menu" href="tel:+94 777554719">+94 777554719</a></p>
                         <p><a class="footer-menu" href="tel: +94 777672343">+94 777672343</a></p>
-                           
+
                     </div>
                     <div class="pt-4 text-white">
                         <p class="footer-text">Australia</p>
@@ -600,23 +600,41 @@
                 </div>
 
                 <div class="py-3 col">
+
                     <div class="text-white">
                         <p class="footer-text mb-4">NewsLetters</p>
                         <div class="col-xl-auto">
                             <img src="assets/images/iconly-light-message.svg" alt="message">
-                            <span>Enter your email address</span>
+                            <input class="newsletter-textbox pb-2 mb-1 ps-2" type="email" id="myEmail"
+                                placeholder="Enter Your Email Address">
                         </div>
-                        <hr class="style1">
+                        <hr class="style2">
                     </div>
-                    <div class="text-white">
+
+                    <div class="mb-5">
                         <p class="footer-text pt-5 pb-3">Location</p>
-                        <div class="col-xl-auto">
-                            <img src="assets/images/iconly-light-location.svg" alt="location">
-                            <span>Location</span>
-                            <img src="assets/images/iconly-light-arrow-down-2 copy.svg" alt="arrow">
+                        <div class="row mx-0">
+                            <img class="col-auto mx-0 pb-2 px-0 w-auto" src="assets/images/iconly-light-location.svg"
+                                alt="location">
+                            <!-- Drop down button -->
+                            <div class="col-6 dropdown">
+                                <button class="newsletter-textbox bg-transparent mb-1 ps-4 pb-2 " type="button"
+                                    id="dropdownButton" data-bs-toggle="dropdown">
+                                    Sri Lanka <img class="w-auto ms-5 ps-4"
+                                        src="assets/images/iconly-light-arrow-down-2 copy.svg" alt="">
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownButton">
+                                    <li><a class="dropdown-item" href="#">Canada</a></li>
+                                    <li><a class="dropdown-item" href="#">Kenya</a></li>
+                                    <li><a class="dropdown-item" href="#">Nepal</a></li>
+                                    <li><a class="dropdown-item" href="#">Singapore</a></li>
+                                </ul>
+                            </div>
+                            <!--/ Drop down button -->
                         </div>
-                        <hr class="style1">
+                        <hr class="style2">
                     </div>
+
                     <div class="text-white">
                         <p class="footer-text">Follow us</p>
                         <div class="row">
@@ -628,6 +646,7 @@
                             </div>
                         </div>
                     </div>
+
                 </div>
             </div>
             <!--/ 1st row -->
@@ -652,6 +671,7 @@
                 </div>
             </div>
             <!--/ 3rd row -->
+
         </div>
     </footer>
     <!-- footer -->

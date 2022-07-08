@@ -135,6 +135,29 @@ hr.style1{
 	border-top: 1px solid #000000;
 }
 
+hr.style2{
+	border-top: 1.5px solid #ffffff;
+}
+
+
+.newsletter-textbox {
+  width: 210px;
+  color: white;
+  background: transparent;
+  outline: none;
+  font-weight: 300;
+  border: none;
+}
+
+
+::placeholder {
+  color: white;
+  font-weight: 300;
+  font-size: 14px;
+  outline: none;
+}
+
+
 
 
 
