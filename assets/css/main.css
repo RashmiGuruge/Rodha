@@ -8,14 +8,11 @@
     --rose: #e4b0b4;
     --font-size-18px : 18px;
     --font-size-36px: clamp(28px, 3vw, 36px);
+    --border-color: #402c2e;
 }
 
 body{
     background-color: var(--background-color) !important;
-}
-
-footer{
-  background-color: var(--bar-color);
 }
 
 p, span{
@@ -124,19 +121,6 @@ p, span{
 
 }
 
-.footer-text{
-  font-family: var(--poppins-fonts);
-  font-size: 17px;
-  font-weight: 500;
-  color: white;
-}
-
-.footer-menu {
-  color: white;
-  list-style-type: none;
-  text-decoration: none;
-}
-
 hr.style1{
 	border-top: 1px solid #000000;
 }
@@ -174,8 +158,6 @@ hr.style2{
   font-size: var(--font-size-36px);
 }
 
-
-
 a.btn {
   font-family: var(--poppins-fonts);
   line-height: 1;
@@ -194,6 +176,69 @@ a.btn.text-white{
   width: 119%;
 } */
 
+.image-super{
+  width: 574px;
+  height: 576px;
+}
+
+/* .footer-menu {
+  color: white;
+  list-style-type: none;
+  text-decoration: none;
+} */
+
+
+/* Footer */
+
+footer{
+  background-color: var(--bar-color);
+}
+
+footer p,
+footer a,
+footer input,
+footer select ,
+footer input::placeholder  {
+  color: #ffffff !important;
+  font-weight: 200 !important;
+  text-decoration: none;
+  font-size: 14px !important;
+}
+
+footer ul{
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-text{
+  font-family: var(--poppins-fonts);
+  font-size: 17px !important;
+  font-weight: 500 !important;
+  color: white;
+}
+
+footer .input-group-text,
+footer input,
+footer select{
+  border: 0 !important;
+  background: transparent !important;
+}
+
+.form-control:focus,
+.form-select:focus{
+  box-shadow: none;
+}
+
+footer select{
+  background-image: url(/assets/images/iconly-light-arrow-down-2\ copy.svg) !important;
+  max-width: 200px;
+}
+
+footer hr {
+  color: var(--border-color);
+  border-width: 0.3px;
+  opacity: .5;
+}
 
 
 
