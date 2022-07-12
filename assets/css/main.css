@@ -9,7 +9,6 @@
     --font-size-18px : 18px;
     --font-size-36px: clamp(28px, 3vw, 36px);
     --border-color: #402c2e;
-    --notification-bar-color: #e6d1d3;
 }
 
 body{
