@@ -9,6 +9,7 @@
     --font-size-18px : 18px;
     --font-size-36px: clamp(28px, 3vw, 36px);
     --border-color: #402c2e;
+    --notification-bar-color: #e6d1d3;
 }
 
 body{
@@ -221,7 +222,7 @@ footer .input-group-text,
 footer input,
 footer select{
   border: 0 !important;
-  background: transparent !important;
+  background-color: transparent !important;
 }
 
 .form-control:focus,
@@ -230,7 +231,7 @@ footer select{
 }
 
 footer select{
-  background-image: url(/assets/images/iconly-light-arrow-down-2\ copy.svg) !important;
+  background-image: url(../images/iconly-light-arrow-down-2\ copy.svg) !important;
   max-width: 200px;
 }
 
