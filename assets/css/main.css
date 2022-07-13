@@ -46,6 +46,14 @@ p, span{
   font-size: 18px;
 }
 
+.fs-15-px{
+  font-size: 15px;
+}
+
+.fs-17-px{
+  font-size: 17px;
+}
+
 .fw-500{
   font-weight: 500;
 }
@@ -172,6 +180,33 @@ a.btn.text-white{
   border: solid 1.5px var(--background-color);
 }
 
+.testimonialSwiper .swiper-slide-active .row{
+  justify-content: start !important;
+}
+
+/* .testimonialSwiper .swiper-slide-active{
+  border-right: solid 2px var(--heading-color);
+} */
+
+.testimonialSwiper >* .swiper-button-next:after, 
+.swiper-button-prev:after {
+  content: none;
+}
+
+.testimonialSwiper >* .swiper-button-next,
+.swiper-button-prev{
+  position: relative;
+  width: auto;
+  height: auto;
+  margin: 0;
+  color: var(--bar-color);
+  font-weight: 500;
+  font-size: var(--font-size-18px);
+  left: 0;
+  right: 0;
+  outline: none;
+}
+
 /* .overlap-image{
   width: 119%;
 } */
@@ -189,7 +224,6 @@ a.btn.text-white{
 
 
 /* Footer */
-
 footer{
   background-color: var(--bar-color);
 }
@@ -240,6 +274,33 @@ footer hr {
   opacity: .5;
 }
 
+
+/* Elegance Super Curated banner */
+.tea-banner {
+  position: absolute;
+  left: 47%;
+}
+
+.elegance-super-surated{
+  font-family: var(--playfair-fonts);
+  color: var(--heading-color);
+  letter-spacing: 1px;
+  text-align: left;
+  /* font-size: 53px; */
+}
+
+.shop-now-2 {
+  color: var(--bar-color);
+  border: var(--bar-color) solid 2px;
+  font-weight: 500;
+  
+  max-width: 160px;
+}
+
+.shop-now-2:hover {
+  color: var(--bar-color);
+  border: var(--bar-color) solid 2px;
+}
 
 
 @media (min-width: 1400px) and (max-width: 1900px){
