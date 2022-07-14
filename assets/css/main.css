@@ -9,6 +9,8 @@
     --font-size-18px : 18px;
     --font-size-36px: clamp(28px, 3vw, 36px);
     --border-color: #402c2e;
+    --blog-page-color: #797979;
+    --home-color:#a9a9a9;
 }
 
 body{
@@ -40,6 +42,10 @@ p, span{
 
 .text-color{
   color: var(--bar-color);
+}
+
+.home-color{
+  color: var(--home-color);
 }
 
 .fs-18-px{
@@ -180,9 +186,9 @@ a.btn.text-white{
   border: solid 1.5px var(--background-color);
 }
 
-.testimonialSwiper .swiper-slide-active .row{
+/* .testimonialSwiper .swiper-slide-active .row{
   justify-content: start !important;
-}
+} */
 
 /* .testimonialSwiper .swiper-slide-active{
   border-right: solid 2px var(--heading-color);
@@ -302,6 +308,34 @@ footer hr {
   border: var(--bar-color) solid 2px;
 }
 
+/* Blog Page */
+
+.blog-text {
+  color: var(--heading-color);
+  font-family: var(--playfair-fonts) !important;
+  letter-spacing: 0.67px;
+}
+
+.blog-date {
+  color: var(--blog-page-color);
+  font-family: var(--poppins-fonts);
+  font-size: 13px;
+}
+
+.blog-head{
+  color: var(--bb);
+  font-family: var(--poppins-fonts);
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.blog-text-in{
+  font-family: var(--poppins-fonts);
+  font-size: 14px;
+  font-weight: 300;
+}
+
+/* Blog Page */
 
 @media (min-width: 1400px) and (max-width: 1900px){
    .container{

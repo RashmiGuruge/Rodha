@@ -11,4 +11,8 @@
     .testimonialSwiper .swiper-slide-active{
       border-right: solid 2px var(--heading-color);
     }
+
+    .testimonialSwiper .swiper-slide-active .row{
+      justify-content: start !important;
+    }
 }
