@@ -7,6 +7,8 @@
   --secondary-text: #797979;
   --rose: #e4b0b4;
   --font-size-18px: 18px;
+  --font-size-13px: 13px;
+  --font-size-14px: 14px;
   --font-size-36px: clamp(28px, 3vw, 36px);
   --border-color: #402c2e;
   --blog-page-color: #797979;
@@ -51,6 +53,14 @@ span {
 
 .fs-18-px {
   font-size: 18px;
+}
+
+.fs-13-px {
+  font-size: 13px;
+}
+
+.fs-14-px {
+  font-size: 14px;
 }
 
 .fs-15-px {
@@ -331,7 +341,39 @@ footer hr {
   font-weight: 300;
 }
 
-/* Blog Page */
+.blog-inner{
+  font-size: var(--font-size-14px);
+  font-family: var(--poppins-fonts);
+  font-weight: 300;
+}
+
+
+/* Contact Us Page */
+
+.form-control {
+  border-radius: 0%;
+  height: 76px;
+}
+
+.submit-form-button {
+  border: solid 1.5px var(--heading-color);
+  color: white;
+  background-color:var(--heading-color);
+  text-decoration: none;
+  font-family: var(--poppins-fonts);
+  font-size: 18px;
+  padding: 0.5rem 1.5rem;
+  text-align: center;
+  width: auto;
+  margin-left: 10px;
+}
+
+.form-label {
+  font-family: var(--poppins-fonts);
+  font-size: 17px;
+}
+
+
 
 @media (min-width: 1400px) and (max-width: 1900px) {
   .container {
