@@ -436,6 +436,17 @@ footer hr {
     border: solid 1.5px var(--bar-color);
 }
 
+
+
+/* Contact Us Page */
+
+#contact-us label{
+  
+}
+
+
+
+
 @media (min-width: 1400px) and (max-width: 1900px) {
   .container {
     min-width: 1198px;
