@@ -36,7 +36,7 @@
     <!--/Notification Bar-->
 
     <!-- Logo Section -->
-    <div class="row px-4 mx-0 mb-3 align-items-center py-3">
+    <div class="row px-4 mx-0 align-items-center py-3">
         <div class="col"><img src="assets/images/iconly-light-location1.svg" alt="locationtag">
             <span>Sri Lanka</span>
             <img src="assets/images/iconly-light-arrow-down-2.svg" alt="arrow">
@@ -98,111 +98,61 @@
     <!-- section-->
     <section class="container mb-5 pb-5">
 
-        <ul class="navbar nav d-inline-flex mx-auto mt-5">
-            <li class="">
-                <a class="text-decoration-none home-color fs-13-px" href="#">Home /</a>
-            </li>
-            <li class="mx-2">
-                <a class="text-decoration-none text-black fs-13-px fw-500" href="#">Contact Us</a>
-            </li>
-        </ul>
+        <!-- Breadcrumb -->
+        <nav aria-label="breadcrumb" class="mt-5 mb-3">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html" class="breadcrumb-text fs-13-px text-font-family">Home</a></li>
+                <li class="breadcrumb-item" ><a href="contact-us.html" aria-current="page" class="breadcrumb-text active fs-13-px text-font-family"> Contact Us</a></li>
+            </ol>
+        </nav>
+        <!--/ Breadcrumb -->
 
+        <p class="fs-3 blog-text mb-4" style="font-family: var(--playfair-display);">Contact us</p>
 
-        <p class="fs-3 blog-text mt-3 mb-5" style="font-family: var(--playfair-display);">Contact us</p>
-
-        <p class="mb-5 pb-1" style="font-weight: 0;">Paullum deliquit, ponderibus modulisque suis ratio utitur. <br>
+        <p class="mb-5 pb-1">Paullum deliquit, ponderibus modulisque suis ratio utitur. <br>
             Contra legem facit qui id facit quod lex prohibet. Paullum deliquit <br> ponderibus modulisque suis
             ratio utitur.</p>
 
 
         <div id="contact-us">
             <form>
-                <div class="row row-cols-1 row-cols-md-2">
+                <div class="row row-cols-1 row-cols-md-2 mb-5 pb-2">
                     <div class="col mb-4">
-                        <label for="fullname" class="form-label mb-3">Full Name</label>
+                        <label for="fullname" class="form-label">Full Name</label>
                         <input type="text" class="form-control" id="fullname" aria-describedby="emailHelp">
                     </div>
                     <div class="col mb-4">
-                        <label for="phonenumber" class="form-label mb-3">Phone Number</label>
+                        <label for="phonenumber" class="form-label">Phone Number</label>
                         <input type="tel" class="form-control" id="phonenumber">
                     </div>
                     <div class="col mb-4">
                         <div class="d-flex justify-content-between align-items-center">
-                            <label for="emailaddress" class="form-label mb-3">Email Address</label>
-                            <label class="required mb-3">Required</label>
+                            <label for="emailaddress" class="form-label">Email Address</label>
+                            <label class="required">Required</label>
                         </div>
                         <input type="email" class="form-control" id="emailaddress" aria-describedby="emailHelp">
                     </div>
                     <div class="col mb-4">
-                        <label for="order" class="form-label mb-3">Order Number</label>
+                        <label for="order" class="form-label">Order Number</label>
                         <input type="text" class="form-control" id="order">
                     </div>
                     <div class="col mb-4">
-                        <label for="company" class="form-label mb-3">Company Name</label>
+                        <label for="company" class="form-label">Company Name</label>
                         <input type="text" class="form-control" id="company" aria-describedby="emailHelp">
                     </div>
                     <div class="col mb-4">
-                        <label for="rma" class="form-label mb-3">RMA Number</label>
+                        <label for="rma" class="form-label">RMA Number</label>
                         <input type="text" class="form-control" id="rma">
                     </div>
                     <div class="col-md-12 mb-4">
-                        <label for="comment" class="form-label mb-3">Comments / Question</label>
-                        <input type="text" class="form-control" id="comment">
+                        <label for="comment" class="form-label">Comments / Question</label>
+                        <textarea class="form-control h-auto" id="comment" rows="8"></textarea>
                     </div>
                 </div>
+                <div class="d-flex justify-content-center">
+                    <button type="submit" class="btn submit-form-button text-font-family fs-18-px">Submit Form</button>
+                </div>
             </form>
-        </div>
-
-
-        <!-- <form class="row row-cols-2">
-            <div class="form-group">
-                <label for="exampleInputEmail1">Full Name</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                    placeholder="">
-                <small id="emailHelp" class="form-text text-muted"></small>
-            </div>
-            <div class="form-group">
-                <label for="exampleInputEmail1">Phone Number</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                    placeholder="">
-                <small id="emailHelp" class="form-text text-muted"></small>
-            </div>
-            <div class="form-group">
-                <label for="exampleInputEmail1">Email address</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                    placeholder="">
-                <small id="emailHelp" class="form-text text-muted"></small>
-            </div>
-            <div class="form-group">
-                <label for="exampleInputEmail1">Order Number</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                    placeholder="">
-                <small id="emailHelp" class="form-text text-muted">.</small>
-            </div>
-            <div class="form-group">
-                <label for="exampleInputEmail1">Company Name</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                    placeholder="">
-                <small id="emailHelp" class="form-text text-muted">.</small>
-            </div>
-            <div class="form-group">
-                <label for="exampleInputEmail1">RMA Number</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                    placeholder="">
-                <small id="emailHelp" class="form-text text-muted">.</small>
-            </div>
-        </form>
-        <div class="form-group">
-            <label for="exampleInputEmail1">Comments / Question</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                placeholder="">
-            <small id="emailHelp" class="form-text text-muted">.</small>
-        </div> -->
-
-
-
-        <div class="text-center">
-            <a class="submit-form-button  ms-lg-3 mt-4 ms-2" href="" role="button">Submit Form</a>
         </div>
     </section>
     <!--/ section -->
