@@ -437,6 +437,23 @@ footer hr {
   color: var(--home-color);
 }
 
+.submit-form-button {
+  border: solid 1.5px var(--heading-color);
+  color: white;
+  background-color:var(--heading-color);
+  text-decoration: none;
+  padding: 0.5rem 1.5rem;
+  text-align: center;
+  width: auto;
+  font-weight: normal;
+  margin-left: 10px;
+}
+
+.submit-form-button:hover{
+  background-color:var(--heading-color);
+  color: white;
+}
+
 
 
 /* Breadcrumb */
